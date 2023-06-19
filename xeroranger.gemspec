@@ -9,11 +9,9 @@ Gem::Specification.new do |spec|
   spec.email = ["vhector.1337@gmail.com"]
 
   spec.summary = "Ruby ranger"
-  spec.description = "Curses based dir explorer"
-  spec.homepage = ""
+  spec.description = "CLI based dir explorer"
+  spec.homepage = "https://github.com/one-m1nd/xeroranger"
   spec.required_ruby_version = ">= 3"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
 
@@ -29,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "curses", "~> 1"
+  spec.add_dependency "colorize", "~> 1"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
